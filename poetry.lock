@@ -30,6 +30,17 @@ python-versions = ">=3.6"
 frozenlist = ">=1.1.0"
 
 [[package]]
+name = "aioswitcher"
+version = "2.0.8"
+description = "Switcher Python Integration."
+category = "main"
+optional = false
+python-versions = ">=3.9.0,<4.0.0"
+
+[package.extras]
+docs = ["insegel (==1.2.0)", "sphinx (==4.2.0)", "sphinxcontrib-autoprogram (==0.1.7)", "sphinxcontrib-spelling (==7.2.1)", "toml (==0.10.2)"]
+
+[[package]]
 name = "async-timeout"
 version = "4.0.2"
 description = "Timeout context manager for asyncio programs"
@@ -140,7 +151,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "501d44ce9aba02d54056d3561d5787d7544048914acfb97259ce638559536676"
+content-hash = "752b298022f88d96b08ab08fd95ae6e5d4495d3a0ae837fa761117efdc4a6a83"
 
 [metadata.files]
 aiohttp = [
@@ -220,6 +231,10 @@ aiohttp = [
 aiosignal = [
     {file = "aiosignal-1.2.0-py3-none-any.whl", hash = "sha256:26e62109036cd181df6e6ad646f91f0dcfd05fe16d0cb924138ff2ab75d64e3a"},
     {file = "aiosignal-1.2.0.tar.gz", hash = "sha256:78ed67db6c7b7ced4f98e495e572106d5c432a93e1ddd1bf475e1dc05f5b7df2"},
+]
+aioswitcher = [
+    {file = "aioswitcher-2.0.8-py3-none-any.whl", hash = "sha256:9a2cc3effe5874494bb73e018354c5c7800cc859bb83a034127f614e99fdd437"},
+    {file = "aioswitcher-2.0.8.tar.gz", hash = "sha256:4e3f02be9c44f401eae6ce6682e94d2e7267d45aa8d9ca658bd433590b26e307"},
 ]
 async-timeout = [
     {file = "async-timeout-4.0.2.tar.gz", hash = "sha256:2163e1640ddb52b7a8c80d0a67a08587e5d245cc9c553a74a847056bc2976b15"},

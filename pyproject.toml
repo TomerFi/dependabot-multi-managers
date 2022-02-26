@@ -6,6 +6,7 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+aioswitcher="^2.0.0"
 requests = "^2.10.0"
 aiohttp = "^3.8.1"
 
